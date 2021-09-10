@@ -1,7 +1,26 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Open-Sans, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+img {
+  max-width: 5em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1.5rem;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  padding: .5rem 1rem .6rem, 2rem
 }
